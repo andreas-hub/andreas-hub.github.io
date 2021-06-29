@@ -10,20 +10,34 @@
           integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
-<body>
+<body class="bg-light">
 <div class="container-lg">
-    <div class="row d-none">
-        <div class="col-4">
-            <div class="card card-body mt-3">
-
-            </div>
-        </div>
-    </div>
     <div class="row">
-        <div class="col">
-            <div class="card card-body mt-3">
+        <div class="col-md-6 col-xl-4">
+            <div class="card card-body mt-3 shadow">
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <th scope="row"><i class="fas fa-user-tie"></i> Name</th>
+                        <td>Andreas Ntrouflias</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><i class="fas fa-map-marker-alt"></i> Country</th>
+                        <td>Greece</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><i class="fas fa-envelope"></i> Email</th>
+                        <td colspan="2"><a href="mailto:antrouflias@gmail.com">antrouflias@gmail.com</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+
                 <div>
-                    <a class="btn btn-primary btn-sm" href="https://gr.linkedin.com/in/andreas-ntrouflias">
+                    <a class="btn btn-primary btn-sm"
+                       data-bs-toggle="tooltip"
+                       title="https://gr.linkedin.com/in/andreas-ntrouflias"
+                       href="https://gr.linkedin.com/in/andreas-ntrouflias"
+                       target="_blank">
                         <i class="fab fa-linkedin-in text-white" style="font-size: 24px"></i>
                     </a>
                 </div>
